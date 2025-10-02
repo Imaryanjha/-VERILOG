@@ -1,0 +1,15 @@
+# 4-Bit Comparator Design
+
+## Overview
+A 4-bit digital comparator that compares two 4-bit inputs A and B, and produces three outputs: A > B, A < B, A == B.
+
+## Features
+- Compares two 4-bit numbers
+- Three output signals: A_gt_B, A_lt_B, A_eq_B
+- Combinational logic design
+
+## Design
+- **Technology:** Verilog
+- **Type:** Combinational circuit
+- **Inputs:** Two 4-bit numbers (A, B)
+- **Outputs:** Three 1-bit comparison results
