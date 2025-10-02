@@ -1,26 +1,17 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 23.08.2025 09:57:41
-// Design Name: 
-// Module Name: 4_bit_comparator_df
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
 
 
-module 4_bit_comparator_df(
 
-    );
+module comparator4bit(
+    input  [3:0] A,
+    input  [3:0] B,
+    output A_gt_B,
+    output A_lt_B,
+    output A_eq_B
+);
+
+assign A_gt_B = (A > B);
+assign A_lt_B = (A < B);
+assign A_eq_B = (A == B);
+
 endmodule
