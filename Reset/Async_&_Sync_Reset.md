@@ -107,3 +107,8 @@ always @(posedge clk) begin
   else
     state <= next_state;
 end
+```
+## ✅ Design Takeaway
+
+Use Asynchronous Reset when fast, clock-independent initialization is essential,
+and Synchronous Reset when predictable behavior and clean timing closure matter most.
